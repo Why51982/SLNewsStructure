@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  SLNewsStructure
+//
+//  Created by CHEUNGYuk Hang Raymond on 16/5/18.
+//  Copyright © 2016年 CHEUNGYuk Hang Raymond. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+SLExtension.h"
+
+#define SLColorWithRGBA(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:a]
+#define SLColorWithRGB(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0]
+
+#endif /* PrefixHeader_pch */
